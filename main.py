@@ -16,22 +16,29 @@ def area_of_rectangle():
     print(area)
 
 def volume_of_a_cylinder():
-    num = 1.333(input("Enter the num of the num: "))
+    num = 1.333
     pi = 3.142
-    radius =float(input("Enter the radius of the circle: "))
+    radius = float(input("Enter the radius of the circle: "))
     volume_of_a_cylinder = num * radius * radius* pi
     print(volume_of_a_cylinder)
 
 def area_of_a_parrallelogram():
-    num= 0.5 float(input("Enter the radius of the circle: "))
-    a = 23
-    b = 15 
-    h= 10
+    num = 1.33
+    a = int(input("Enter the value for a: "))
+    b = int(input("Enter the value for b: "))
+    h = int(input("Enter the value for h: "))
     area_of_a_parrallelogram = num *(a + b)*h
     print(area_of_a_parrallelogram)
+
+def perimeter_of_a_square():
+    length = int(input("Enter a value for length: "))
+    perimeter_of_a_square = 4 * length
+    print("The answer is " , perimeter_of_a_square)
+    
 
 area_of_circle()
 area_of_rectangle()
 area_of_square()
 volume_of_a_cylinder()
 area_of_a_parrallelogram()
+perimeter_of_a_square()
